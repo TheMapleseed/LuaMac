@@ -1,0 +1,42 @@
+.gitattributes
+
+*.so
+*.o
+*.a
+
+manual/manual.html
+
+testes/time.txt
+testes/time-debug.txt
+
+testes/libs/all
+
+temp
+lua
+
+# Lua build artifacts
+*.o
+*.a
+*.so
+*.dylib
+lua
+luac
+
+# Tests directory
+lua-5.4.7-tests/
+
+# macOS specific
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editor files
+*.swp
+*.swo
+*~
+
+# Compiled Lua bytecode
+*.luac
+
+# Distribution / packaging
+all
